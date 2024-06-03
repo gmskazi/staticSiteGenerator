@@ -1,3 +1,4 @@
+from typing import Text
 import unittest
 
 from textnode import (
