@@ -1,3 +1,4 @@
+from types import new_class
 from htmlnode import LeafNode
 
 
