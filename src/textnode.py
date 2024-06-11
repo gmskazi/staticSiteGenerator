@@ -31,7 +31,7 @@ class TextNode:
 
 def text_node_to_html_node(text_node: TextNode) -> LeafNode:
     if text_node.text_type == text_type_text:
-        return LeafNode(None, text_type_text)
+        return LeafNode(None, text_node.text)
     if text_node.text_type == text_type_bold:
         return LeafNode("b", text_node.text)
     if text_node.text_type == text_type_italic:
